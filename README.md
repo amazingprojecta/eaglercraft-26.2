@@ -1,5 +1,5 @@
 # ⛏️ Minecraft 26.2 Server
-<H1>A massive framework update will come on november 8, 2026 fixing nearly all bugs, making the server much more faster, updating it to 26.3 and new guide<h1/>  
+<H1>A massive update will come on november 8, 2026 fixing nearly all bugs, updating it to 26.3 and new guide including how to update and new readme.<h1/>  
 <a href="https://github.com/Hyrisks">
   <img
     align="right"
