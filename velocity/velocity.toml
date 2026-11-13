@@ -34,7 +34,7 @@ prevent-client-proxy-connections = false
 #                  unable to implement network level firewalling (on a shared host).
 # - "modern":      Forward player IPs and UUIDs as part of the login process using
 #                  Velocity's native forwarding. Only applicable for Minecraft 1.13 or higher.
-player-info-forwarding-mode = "modern"
+player-info-forwarding-mode = "none"
 
 # If you are using modern or BungeeGuard IP forwarding, configure a file that contains a unique secret here.
 # The file is expected to be UTF-8 encoded and not empty.
@@ -91,11 +91,10 @@ decompressed-bytes-per-second = 5242880
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
 survival = "127.0.0.1:25567"
-auth = "127.0.0.1:65535"
 
 # In what order we should try servers when a player logs in or is kicked from a server.
 try = [
-    "auth"
+    "survival"
 ]
 
 [forced-hosts]
